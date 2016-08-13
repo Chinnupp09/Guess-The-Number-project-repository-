@@ -1,0 +1,36 @@
+
+html {
+  height:100%;
+}
+body{
+  height:100;
+  color: purple;
+  background-image: url("img/light-bg1.png");
+  text-align: center;
+  @import url("@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+    font-size: 22px;
+}
+.title{
+  font-size: 5em;
+
+}
+.btn{
+  font-size: inherit;
+  color: blue;
+  background-color: purple;
+  text-decoration: none;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+h1{
+  font-family: 'Droid Serif', serif;
+}
+.guess{
+  height: 2em;
+  display: block;
+  margin: 0 auto 1.5em;
+}
+.trophy{
+  height: 100px;
+}
